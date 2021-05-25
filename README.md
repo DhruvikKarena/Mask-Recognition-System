@@ -57,7 +57,7 @@ LabelImg saves a .xml file containing the label data for each image. These .xml 
 With the images labeled, it’s time to generate the TFRecords that serve as input data to the TensorFlow training model. 
 First, the image .xml data will be used to create .csv files containing all the data for the train and test images. From the \object_detection folder, issue the following command in the Anaconda command prompt:
 ```
-(tensorflow1) C:\tensorflow1\models\research\object_detection> python xml_to_csv.py
+(tensorflow1) C:\tensorflow1\Mask-Recognition-System> python xml_to_csv.py
 ```
 This creates a train_labels.csv and test_labels.csv file in the \object_detection\images folder.
 
@@ -111,10 +111,10 @@ This creates a frozen_inference_graph.pb file in the \object_detection\inference
 Now to use newly trained object detection classifier run below commands.
 For webcam:
 ```
-(tensorflow1) C:\tensorflow1\models\research\object_detection> python Mask_Recognition_Webcam.py
+(tensorflow1) C:\tensorflow1\Mask-Recognition-System> python Mask_Recognition_Webcam.py
 ```
 For Image:
 ```
-(tensorflow1) C:\tensorflow1\models\research\object_detection> python Mask_Recognition_Image.py
+(tensorflow1) C:\tensorflow1\Mask-Recognition-System> python Mask_Recognition_Image.py
 ```
 and output image will be stored in a output folder(this folder you have to create.) 
