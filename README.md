@@ -1,4 +1,5 @@
 # Mask-Recognition-System
+
 # Requirements
 
 1. Python 3.5
@@ -7,9 +8,9 @@
 4. pandas
 
 ## Step 1: clone repo directory on your device 
-clone the repo directory.
+Clone the repo directory.
 ```
-https://github.com/DhruvikKarena/Mask-Recognition-System
+https://github.com/DhruvikKarena/Mask-Recognition-System.git
 ```
 ## Step 2: Set up new Anaconda virtual environment
 Next, we'll work on setting up a virtual environment in Anaconda for tensorflow-gpu. From the Start menu in Windows, search for the Anaconda Prompt utility, right click on it, and click “Run as Administrator”. If Windows asks you if you would like to allow it to make changes to your computer, click Yes.
